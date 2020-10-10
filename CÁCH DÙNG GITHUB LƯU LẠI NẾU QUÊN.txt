@@ -1,0 +1,61 @@
+---------------NHỮNG LỆNH VÀ CÁC BƯỚC CƠ BẢN -------------------
+--------------- tóm lại: Để tạo và đẩy lên GITHUB gồm các bước --------------------
+	git init
+	git remote add origin https://....
+	git status
+	git add ./*
+	git commit -m "comment"
+	git status
+	git push origin [nhánh]
+---------------- lấy source về máy tinh ------------
+	git clone https://.... [Tên tập tin nếu muốn]
+	git pull : cập nhật mới
+
+--------------------CHI TIẾT BÊN DƯỚI------------------
+
+------------------ làm 1 github -----------
+b1: Tạo 1 file trên máy tính sau đó mở git bash nhập lệnh sau:
+
+-git init
+b2: kết nối với tài khoản trên GitHub bằng cách:
+- Tạo 1 tên thư mục(create a new repository) sau đó lấy đường link https và chạy lệnh:
+	->git remote add origin [đường link https của tập tin trên github]
+b3: Làm việc bình thường trên máy tính sau đó chạy các lệnh:
+		<!-- - alias.st=status
+		- alias.a=add * -->
+	- git st
+	- git a
+	- git c "comment gì đó"
+	- git st
+	* nếu muốn thay đổi gì đó khi còn dưới máy tính thì dùng lệnh
+	- git commit --amend -m "comment vào đây"
+
+
+b4: Đẩy lên repository của GitHub:
+	- git push origin [tên nhánh]
+
+
+------------ 1 số lệnh trên pc -------------
+1- thay comment
+	git commit --amend -m " comment gì đó"
+	git status (git st)
+2 - Xem lại lịch sử comment
+	git log --oneline
+3 - Reset lại file đã add vào staged
+	git reset [tên file]
+
+------------ lấy từ GitHub về máy -----------------
+- Từ terminal muốn lùi ra cũng làm tương tự: cd..
+- Muốn vào sâu 1 cấp nữa cũng tương tự: cd 'tên thư mục'
+1- lấy về máy tính:
+	git clone [đường dẫn https...] [đặt tên thư mục mới nếu muốn không nó sẽ lấy trên kia.]
+	ex: git clone https://github.com/VINCENTTRANVAN/codeEXplore.git "TÊN MỚI"
+2 - Nếu thành viên mới thêm file mới hay sửa gì đó thì dùng lệnh này để pull về máy:
+	git pull
+	git fetch(lấy tạm về bố nhớ đệm chưa về hẳn)
+--------------------------------------------------------
+A - Local Repository: install Git in your PC
+alias.st=status
+alias.a=add *
+alias.c=commit -m
+alias.am=commit -amend

@@ -1,0 +1,8 @@
+
+--------------Git & GitHub là gì? - Hướng dẫn Cài đặt Git trên Windows và Mac PC | Tự Học Git & GitHub #1
+
+https://www.youtube.com/watch?v=Gh7PL17OXPc&list=PLJcWUrckOCKJ9cL3WtHhK_eHu5Q3aYnDs&index=2
+
+--------------10 Lệnh Git CƠ BẢN mà Lập Trình Viên Nên Biết | Học Git & GitHub #2
+
+https://www.youtube.com/watch?v=z-BDl0SBtgo&list=PLJcWUrckOCKJ9cL3WtHhK_eHu5Q3aYnDs&index=1
