@@ -1,0 +1,51 @@
+
+========================== LÀM VIỆC GITHUB CÙNG NHAU =================
+- lấy tài liệu về máy:
+	git clone <link https:...> <đặt tên lại nếu muốn>
+- chỉnh sửa tài liệu này nọ.... trên máy tính trong thư mục mới lấy về... và bình thường các thao tác
+	git st
+	git a
+	git c "..."
+	git push origin master	(đẩy lại lên git)
+	git pull (cập nhật xem gì mới)
+
+----------------//// -------bắt đầu 1 git---------////-----
+------tạo thư mục mới từ pc sau đó chạy các lệnh:
+	git init
+----- làm việc bình thường trong thư mục đó xong ----
+	git st
+	git a
+	git c "..."
+------- đẩy lên tài khoản Github ------------------------
+	git remote add origin <link>
+	ex: (git remote add origin https://github.com/tranhanhIT/THULAMLAIGITHUB.git)
+	git push origin master
+
+---------------------hết---------------------------------
+
+
+git init
+git status
+git add *
+git commit -m "...."
+git c "..."
+git remote add 
+
+============== HƯỚNG DẪN TỪ GITHUB ================
+
+----------create a new repository on the command line --------------
+echo "# THULAMLAIGITHUB" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tranhanhIT/THULAMLAIGITHUB.git
+git push -u origin main
+
+------------- push an existing repository from the command line----------------
+git remote add origin https://github.com/tranhanhIT/THULAMLAIGITHUB.git
+git branch -M main
+git push -u origin main
+
+-------------------------------------------------------------------------
+
